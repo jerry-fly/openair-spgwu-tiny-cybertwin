@@ -1,0 +1,52 @@
+Scanning dependencies of target UDP
+Scanning dependencies of target 3GPP_COMMON_TYPES
+Scanning dependencies of target GTPV1U
+Scanning dependencies of target PFCP
+Scanning dependencies of target SPGWU
+Scanning dependencies of target CN_UTILS
+Scanning dependencies of target SPGW_SWITCH
+[  2%] Building CXX object common/CMakeFiles/3GPP_COMMON_TYPES.dir/logger.cpp.o
+[  5%] Building CXX object udp/CMakeFiles/UDP.dir/udp.cpp.o
+[  8%] Building CXX object spgw_u/CMakeFiles/SPGWU.dir/spgwu_pfcp_association.cpp.o
+[ 11%] Building CXX object utils/CMakeFiles/CN_UTILS.dir/3gpp_conversions.cpp.o
+[ 13%] Building CXX object simpleswitch/CMakeFiles/SPGW_SWITCH.dir/pfcp_far.cpp.o
+[ 16%] Building CXX object pfcp/CMakeFiles/PFCP.dir/3gpp_29.244.cpp.o
+[ 19%] Building CXX object gtpv1u/CMakeFiles/GTPV1U.dir/gtpv1u.cpp.o
+[ 22%] Building CXX object gtpv1u/CMakeFiles/GTPV1U.dir/3gpp_29.281.cpp.o
+[ 25%] Building CXX object utils/CMakeFiles/CN_UTILS.dir/async_shell_cmd.cpp.o
+[ 27%] Building CXX object utils/CMakeFiles/CN_UTILS.dir/conversions.cpp.o
+[ 30%] Linking CXX static library libGTPV1U.a
+[ 30%] Built target GTPV1U
+[ 33%] Building CXX object spgw_u/CMakeFiles/SPGWU.dir/spgwu_app.cpp.o
+[ 36%] Linking CXX static library libUDP.a
+[ 36%] Built target UDP
+[ 38%] Building CXX object simpleswitch/CMakeFiles/SPGW_SWITCH.dir/pfcp_pdr.cpp.o
+[ 41%] Linking CXX static library lib3GPP_COMMON_TYPES.a
+[ 44%] Building CXX object simpleswitch/CMakeFiles/SPGW_SWITCH.dir/pfcp_session.cpp.o
+[ 44%] Built target 3GPP_COMMON_TYPES
+[ 47%] Building CXX object pfcp/CMakeFiles/PFCP.dir/pfcp.cpp.o
+[ 50%] Building CXX object spgw_u/CMakeFiles/SPGWU.dir/spgwu_config.cpp.o
+[ 52%] Building CXX object utils/CMakeFiles/CN_UTILS.dir/epc.cpp.o
+[ 55%] Building CXX object spgw_u/CMakeFiles/SPGWU.dir/spgwu_sx.cpp.o
+[ 58%] Building CXX object utils/CMakeFiles/CN_UTILS.dir/get_gateway_netlink.cpp.o
+[ 61%] Building CXX object simpleswitch/CMakeFiles/SPGW_SWITCH.dir/pfcp_switch.cpp.o
+[ 63%] Building CXX object utils/CMakeFiles/CN_UTILS.dir/if.cpp.o
+[ 66%] Building CXX object simpleswitch/CMakeFiles/SPGW_SWITCH.dir/spgwu_s1u.cpp.o
+[ 69%] Building CXX object utils/CMakeFiles/CN_UTILS.dir/string.cpp.o
+[ 72%] Building CXX object utils/CMakeFiles/CN_UTILS.dir/pid_file.cpp.o
+[ 75%] Linking CXX static library libPFCP.a
+[ 75%] Built target PFCP
+[ 77%] Building CXX object utils/CMakeFiles/CN_UTILS.dir/thread_sched.cpp.o
+[ 80%] Linking CXX static library libCN_UTILS.a
+[ 80%] Built target CN_UTILS
+[ 83%] Linking CXX static library libSPGWU.a
+[ 83%] Built target SPGWU
+[ 86%] Linking CXX static library libSPGW_SWITCH.a
+[ 86%] Built target SPGW_SWITCH
+Scanning dependencies of target spgwu
+[ 94%] Building CXX object CMakeFiles/spgwu.dir/openair-spgwu-tiny/src/itti/itti_msg.cpp.o
+[ 94%] Building CXX object CMakeFiles/spgwu.dir/openair-spgwu-tiny/src/oai_spgwu/options.cpp.o
+[ 94%] Building CXX object CMakeFiles/spgwu.dir/openair-spgwu-tiny/src/oai_spgwu/main.cpp.o
+[ 97%] Building CXX object CMakeFiles/spgwu.dir/openair-spgwu-tiny/src/itti/itti.cpp.o
+[100%] Linking CXX executable spgwu
+[100%] Built target spgwu
